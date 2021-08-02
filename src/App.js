@@ -6,9 +6,9 @@ export default function App() {
   return (
     <div>
       <h1>My Pictures</h1>
-      <MyPictures text = "lalala"/>
-      <MyPictures text = "who dat"/>
-      <MyPictures text = "its me"/>
+      <MyPictures text="Picture 1" />
+      <MyPictures text="Picture 2" />
+      <MyPictures text="Picture 3" />
     </div>
   );
 }
