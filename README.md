@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# How to use
 ```
 In progress of conjuring this app...
 
