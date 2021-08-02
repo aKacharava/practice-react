@@ -1,30 +1,22 @@
 body {
-  background-color: #f3f3f3;
+  background-color: $backgroundColor;
   margin: 3rem;
   div {
     h1 {
-      color: $mainColor;
+      color: $fontMainColor;
       font-weight: 600;
     }
     .vg-card {
-      background-color: #c7c7c7;
+      background-color: $cardColor;
+      box-shadow: 0 1px 4px  rgba(0, 0, 0, 0.2);
       padding: 4rem;
       width: 20rem;
       h2 {
-        color: $accentColor;
+        color: $fontSecondColor;
         font-weight: 600;
       }
       .vg-actions {
         text-align: right;
-        .vg-btn {
-          padding: 5px 30px;
-          border: none;
-          border-radius: 15px;
-          font-weight: 600;
-          cursor: pointer;
-          background-color: #9e1f1f;
-          color: #ffffff;
-        }
       }
     }
   }
